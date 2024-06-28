@@ -22,7 +22,7 @@ Este projeto visa conectar animais necessitados a pessoas dispostas a adotar. At
 - **Quem Somos:** Saiba mais sobre nossa missão, história e equipe.
 - **Ajuda:** Informações sobre como doar, voluntariar-se e apoiar nosso abrigo.
 - **Contato:** Formulário de contato e informações de localização.
-- Em breve...
+- Em breve....
 
 ## Capturas de Tela
 
