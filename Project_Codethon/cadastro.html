@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/cadastro/cadastro.css">
+    <title>Cadastro de animais</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="src/images/logo.jpeg" alt="Logo Toca de Assis">
+            <address>
+                Rua Suburbana, SN<br>
+                Reservado<br>
+                Ivai/PR 86760000
+            </address>
+            <button>Cadastrar Pet</button>
+            <button>Editar</button>
+            <button>Sair</button>
+        </div>
+        <div class="content">
+            <h1>Cadastro de Animais</h1>
+            <form>
+                <div class="flex-container">
+                    <div class="form-group image-input-container">
+                        <label for="image">Imagem do Pet</label>
+                        <input type="file" id="image" name="image" class="image-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Descrição</label>
+                        <textarea id="description" name="description" class="description-input" placeholder="Descrição do pet"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Nome do pet">
+                </div>
+                <div class="form-group">
+                    <label for="breed">Raça</label>
+                    <input type="text" id="breed" name="breed" placeholder="Raça do pet">
+                </div>
+                <div class="form-group">
+                    <label for="size">Tamanho em CM</label>
+                    <input type="number" id="size" name="size" placeholder="Tamanho em cm">
+                </div>
+                <div class="form-group">
+                    <label for="age">Idade</label>
+                    <input type="number" id="age" name="age" placeholder="Idade do pet">
+                </div>
+                <div class="form-group">
+                    <label for="gender">Sexo</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Macho</option>
+                        <option value="female">Fêmea</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="neutered">Castrado</label>
+                    <select id="neutered" name="neutered">
+                        <option value="yes">Sim</option>
+                        <option value="no">Não</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="adopted">Já foi adotado</label>
+                    <select id="adopted" name="adopted">
+                        <option value="yes">Sim</option>
+                        <option value="no">Não</option>
+                    </select>
+                </div>
+                <div class="form-group" style="flex-basis: 100%;">
+                    <button type="submit">Cadastrar Pet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

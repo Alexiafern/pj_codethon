@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.sidebar {
+    background-color: #f36f21;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 250px;
+    flex-shrink: 0;
+    height: 100vh;
+}
+.sidebar img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+.sidebar button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.sidebar button:hover {
+    background-color: #e65c00;
+}
+.content {
+    padding: 20px;
+    width: 100%;
+}
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.content form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.content form input,
+.content form select,
+.content form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.content form button {
+    padding: 10px;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.content form button:hover {
+    background-color: #e65c00;
+}
+.form-group {
+    flex: 1;
+    min-width: 200px;
+}
+.image-input-container {
+    width: 100%;
+    text-align: center;
+}
+.image-input {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 2px dashed #ccc;
+    padding: 10px;
+}
+.description-input {
+    height: 100px;
+}
+.flex-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
