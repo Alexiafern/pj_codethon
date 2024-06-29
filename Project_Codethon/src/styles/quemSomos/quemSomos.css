@@ -24,7 +24,7 @@
 }
 
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1600px) {
     #quem-somos {
         padding: 20px; 
     }
@@ -33,17 +33,13 @@
         margin-bottom: 10px;
     }
     #quem-somos p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 }
 
 @media screen and (max-width: 854px) {
-    #quem-somos {
-        padding: 20px; 
-    }
     #quem-somos h2 {
         font-size: 1.4rem;
-        margin-bottom: 10px;
     }
     #quem-somos p {
         font-size: 0.8rem;
@@ -56,7 +52,6 @@
     }
     #quem-somos h2 {
         font-size: 1.2rem;
-        margin-bottom: 10px;
     }
     #quem-somos p {
         font-size: 0.8rem;
@@ -69,7 +64,6 @@
     }
     #quem-somos h2 {
         font-size: 1rem;
-        margin-bottom: 10px;
     }
     #quem-somos p {
         font-size: 0.63rem;
