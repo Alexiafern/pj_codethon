@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('cadastro.css');
+
+:root {
+    --color-primary-1: #fff9ea;
+    --color-primary-2: #FFBF69;
+    --color-primary-3: #E99B2F;
+    --color-primary-4: #f8d477;
+    --color-primary-5: #ffcb45;
+    
+    --color-button-0: #28a745;
+    --color-button-1: #218838;
+
+    --color-neutral-0: #fff;
+    --color-neutral-1: #1d1d1d;
+    --color-neutral-2: #f2f2f2;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primary-1);
+}
