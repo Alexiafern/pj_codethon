@@ -1,7 +1,7 @@
 
 # Toca de Assis - Abrigo de Animais
 
-![Logo do Projeto](src/images/favicon.png)
+![Logo do Projeto](Project_Codethon/src/images/favicon.png)
 
 Um site dedicado à adoção de animais, proporcionando um lar amoroso para nossos amigos peludos.
 
@@ -30,7 +30,7 @@ Este projeto visa conectar animais necessitados a pessoas dispostas a adotar. At
 
 ## Instalação
 
-1. Clone o repositório:
+1. Clone o repositório: 
    ```bash
    git clone https://github.com/Alexiafern/pj_codethon.git
    ```
