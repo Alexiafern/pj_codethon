@@ -1,0 +1,52 @@
+.social {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  display: flex;
+  margin-top: 7%;
+  justify-content: space-evenly;
+}
+
+.contato {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  color: var(--color-primary-3);
+}
+
+.icon a {
+  text-decoration: none;
+  color: var(--color-primary-5);
+  font-size: 20vh;
+}
+
+@media screen and (max-width: 850px) {
+  .icon a {
+    font-size: 15vh;
+  }
+
+  .contato {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon a {
+    font-size: 12vh;
+  }
+
+  .contato {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .icon a {
+    font-size: 10vh;
+  }
+
+  .contato {
+    font-size: 7px;
+  }
+}

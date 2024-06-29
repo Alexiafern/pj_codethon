@@ -1,0 +1,33 @@
+.footer {
+    background-color: var(--color-neutral-1);
+    color: var(--color-neutral-0);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-logo {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: var(--color-primary-3);
+}
+
+.footer-address {
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.legal {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: var(--color-neutral-0);
+}
+
+@media screen and (max-width: 600px) {
+    .footer-logo {
+        font-size: 1.2rem;
+    }
+}
