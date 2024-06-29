@@ -30,7 +30,7 @@ Este projeto visa conectar animais necessitados a pessoas dispostas a adotar. At
 
 ## Instalação
 
-1. Clone o repositório:
+1. Clone o repositório: 
    ```bash
    git clone https://github.com/Alexiafern/pj_codethon.git
    ```
