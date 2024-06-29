@@ -28,6 +28,14 @@
     overflow: hidden;
 }
 
+.pet img {
+    width: 100%; 
+    height: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
 .pet-details {
     color: var(--color-neutral-1);
     text-align: center;
