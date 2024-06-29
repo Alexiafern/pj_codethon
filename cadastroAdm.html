@@ -12,7 +12,7 @@
     <div class="container">
         <div class="content">
             <h1>Cadastro de Animais</h1>
-            <form>
+            <form id="animal-form">
                 <div class="flex-container">
                     <div class="form-group image-input-container">
                         <label for="image">Imagem do Pet</label>
@@ -20,8 +20,7 @@
                     </div>
                     <div class="form-group">
                         <label for="description">Descrição</label>
-                        <textarea id="description" name="description" class="description-input"
-                            placeholder="Descrição do pet"></textarea>
+                        <textarea id="description" name="description" class="description-input" placeholder="Descrição do pet"></textarea>
                     </div>
                 </div>
                 <div class="form-group">
@@ -63,12 +62,14 @@
                 </div>
                 <div class="form-group" style="flex-basis: 100%;">
                     <button type="submit">Cadastrar Pet</button>
-                    <button class="edit-button">Editar</button>
+                    <button type="button" class="edit-button">Editar</button>
                     <a href="index.html">Sair</a>
                 </div>
             </form>
         </div>
     </div>
+
+    <script src="src/scripts/form.js"></script>
 </body>
 
 </html>
