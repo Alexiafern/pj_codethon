@@ -8,43 +8,6 @@
     border-radius: 10px; 
 }
 
-.sidebar {
-    flex: 0 0 250px;
-    padding: 20px;
-    border-top-left-radius: 10px; 
-    border-bottom-left-radius: 10px; 
-    background-color: var(--color-neutral-2)
-}
-
-.sidebar img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.sidebar address {
-    font-style: normal;
-    margin-bottom: 15px;
-}
-
-.sidebar button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: var(--color-primary-3);;
-    color: var(--color-neutral-0);
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 5px; 
-}
-
-.sidebar button:hover {
-    background-color: var(--color-primary-2);
-}
-
 .content {
     flex: 1;
     padding: 20px;
@@ -104,4 +67,34 @@
 
 .form-group button[type="submit"]:hover {
     background-color: var(--color-button-1);
+}
+
+.form-group button {
+    background-color: var(--color-primary-3);
+    color: var(--color-neutral-0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+
+.form-group button:hover {
+    background-color: var(--color-primary-2);
+}
+
+.form-group a {
+    background-color: var(--color-primary-3);
+    color: var(--color-neutral-0);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group a:hover {
+    background-color: var(--color-primary-2);
 }
